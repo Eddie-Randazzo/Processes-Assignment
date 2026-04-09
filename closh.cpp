@@ -34,7 +34,7 @@ int main() {
                 exit(1);
             } else if (rc == 0) {
 
-            char* my args[2];
+            char* myargs[2];
             myargs[0] = strdup(commandLine.c_str());
             myargs[1] = NULL;
 
